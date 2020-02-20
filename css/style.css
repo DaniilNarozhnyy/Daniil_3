@@ -1,0 +1,262 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.left {
+	margin: 0 50px;
+	height: 1000px;
+}
+
+.ul_1 {
+	list-style: none;
+	font-size: 26px;
+	
+	background-color: #EBEBEB;
+	border-radius: 10px;
+    
+    width: 240px;
+}
+
+
+.txt_1 {
+    padding: 10px 10px;    
+	height: 75px;
+    color: #717171;
+}
+
+.txt_1:nth-child(1) {
+    background: linear-gradient(0deg, #4F7B95, #6598B7);
+    border-radius: 10px 10px 0 0;
+    color: aliceblue;
+}
+
+.txt_1:nth-child(3) {
+    border-top: 2px solid #40667C;
+    margin: 0 7px;
+    
+}
+
+
+.supul {
+	margin-top: 25px;
+	
+	
+	background-color: #EBEBEB;
+	border-radius: 10px;
+    width: 240px;
+}
+
+
+h4 {
+	font-size: 20px;
+	font-style: italic;
+    background: linear-gradient(0deg, #4F7B95, #6598B7);
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.ul_2 {
+	list-style: none;
+    color: aliceblue;
+}
+
+.txt_2 {
+	height: 30px;
+	font-size: 20px;
+    padding: 0 10px;
+}
+
+.txt_2:nth-child(1) {
+    background-color: #5589A7;
+}
+
+.txt_2:nth-child(2) {
+    background-color: #5D96B7;
+}
+
+.txt_2:nth-child(3) {
+    background-color: #64A1C5;
+    border-radius: 0 0 10px 10px;
+}
+
+.container {
+	padding: 20px;
+	background-color: #EBEBEB;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 640px;
+}
+
+.title {
+	font-size: 26px;
+	
+	padding-bottom: 10px;
+	border-bottom: 2px solid #40667C;
+	width: 280px;
+    color: #40667C;
+}
+
+.supcontainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 600px;
+	height: 300px;
+}
+
+.img {
+	width: 200px;
+	height: 200px;
+	
+	background-image: url('https://avatars.mds.yandex.net/get-pdb/1605014/c6845200-e0b5-41ed-8301-5350005b4e2f/s1200');
+	background-position: center;
+	background-size: contain;
+
+	border: 2px solid #40667C;
+	border-radius: 50%;
+}
+
+.ul_3 {
+	width: 350px;
+}
+
+
+.li_1 {
+	display: flex;
+	flex-wrap: wrap;
+
+	font-size: 20px;
+	list-style: none;
+
+	margin: 20px 0;
+}
+
+.txt_3 {
+	font-weight: 700;
+
+	margin: 0 20px 0 0;
+}
+
+
+.ul_4 {
+	display: flex;
+	list-style: none;
+}
+
+.li_2 {
+	width: 50px;
+	height: 25px;
+	text-align: center;
+
+	background: linear-gradient(0deg, #4F7B95, #70AACC);
+	color: white;
+	margin-right: 5px;
+}
+
+.socials {
+    display: flex;
+    
+    width: 330px;
+    list-style: none;
+
+    margin: 20px 0 50px 1200px;
+}
+
+.socials-item {
+    width: 47px;
+    height: 47px;
+    
+    margin-left: 47px;
+}
+
+.socials-item:first-child {
+    margin-left: 0;
+}
+
+.social-link {
+    display: block;
+    
+    width: 100%;
+    height: 100%;
+    text-indent: -9999999px;
+    background: url(../assets/socials.png)
+}
+
+.vk {
+    background-position: -8px -10px;
+}
+
+.vk:hover {
+    background-position: -8px -69px;
+}
+
+.tw {
+    background-position: -79px -10px;
+}
+
+.tw:hover {
+    background-position: -79px -69px;
+}
+
+.fb {
+    background-position: -150px -10px;
+}
+
+.fb:hover {
+    background-position: -150px -69px;
+}
+
+.gt {
+    background-position: -221px -10px;
+}
+
+.gt:hover {
+    background-position: -221px -69px;
+}
+
+.ul_4 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+
+	margin: 40px 0;
+}
+
+.txt_5 {
+	margin-bottom: 30px;
+	font-size: 20px;
+	padding: 0 40px;
+
+	background-image: url('https://i7.pngguru.com/preview/474/289/251/computer-icons-career-portfolio-5th-international-research-gsom-emerging-markets-conference-2018-saint-petersburg-state-university-symbol-symbol.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: .9;
+}
+
+.li_5 {
+	list-style: none;
+	margin-bottom: 50px;
+}
+
+.img_3 {
+	background-image: url('https://img2.freepng.ru/20180718/wky/kisspng-incandescent-light-bulb-computer-icons-lamp-o-creative-5b4fbc157c0211.685636751531952149508.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: .9;
+}
+
+.img_4 {
+	background-image: url('https://c7.hotpng.com/preview/131/553/238/computer-icons-document-file-format-others.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: .9;
+}
